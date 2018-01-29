@@ -1,0 +1,42 @@
+{
+
+    "manifest_version": 2,
+    "name": "count_req_log",
+    "version": "1.0",
+    
+    "description": "Reads instances of a word. Replaces/Injects new word? Logs certain requests",
+    
+    "icons": 
+    {
+      "48": "icons/border-48.png"
+    },
+    
+    "content_scripts": 
+    [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["red_border.js"]
+      }
+    ],
+  
+    "permissions": 
+    [
+      "activeTab"
+    ],
+  
+    "browser_action": 
+    {
+      "default_icon": "icons/beasts-32.png",
+      "default_title": "Beastify",
+      "default_popup": "popup/choose_beast.html"
+    },
+  
+    "web_accessible_resources": 
+    [
+      "beasts/frog.jpg",
+      "beasts/turtle.jpg",
+      "beasts/snake.jpg"
+    ]
+    
+  }
+
