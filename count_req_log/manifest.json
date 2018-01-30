@@ -5,37 +5,37 @@
     "version": "1.0",
     
     "description": "Reads instances of a word. Replaces/Injects new word? Logs certain requests",
-    
+
     "icons": 
     {
-      "48": "icons/border-48.png"
+        "48": "icons/extension_fire.png"
     },
     
     "content_scripts": 
     [
-      {
-        "matches": ["*://*.mozilla.org/*"],
-        "js": ["red_border.js"]
-      }
+        {
+            "matches": ["<all_urls>"],
+            "js": ["cound_log.js"]
+        }
     ],
   
     "permissions": 
     [
-      "activeTab"
+        "activeTab"
     ],
   
     "browser_action": 
     {
-      "default_icon": "icons/beasts-32.png",
-      "default_title": "Beastify",
-      "default_popup": "popup/choose_beast.html"
+        "default_icon": "icons/bar_vader.png",
+        "default_title": "Count&Log",
+        "default_popup": "popup/choose_beast.html"
     },
   
     "web_accessible_resources": 
-    [
-      "beasts/frog.jpg",
-      "beasts/turtle.jpg",
-      "beasts/snake.jpg"
+    [   
+         "beasts/frog.jpg",
+         "beasts/turtle.jpg",
+         "beasts/snake.jpg"
     ]
     
   }
