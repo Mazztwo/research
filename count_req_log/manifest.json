@@ -15,7 +15,7 @@
     [
         {
             "matches": ["<all_urls>"],
-            "js": ["cound_log.js"]
+            "js": ["count_log.js"]
         }
     ],
   
@@ -29,14 +29,6 @@
         "default_icon": "icons/bar_vader.png",
         "default_title": "Count&Log",
         "default_popup": "popup/choose_beast.html"
-    },
-  
-    "web_accessible_resources": 
-    [   
-         "beasts/frog.jpg",
-         "beasts/turtle.jpg",
-         "beasts/snake.jpg"
-    ]
-    
+    }
   }
 
