@@ -1,0 +1,44 @@
+html, body 
+{    
+    width: 100px;
+}
+  
+.hidden 
+{
+    display: none;
+}
+
+
+.button 
+{
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+  
+.poof:hover 
+{
+    background-color: #FF5733;
+}
+  
+.poof 
+{
+    background-color: #C70039;
+}
+  
+.reset 
+{
+    background-color: #74FF33;
+}
+  
+.reset:hover 
+{
+    background-color: #DAF7A6;
+}
+
+.highlight 
+{
+    background-color: yellow;
+}

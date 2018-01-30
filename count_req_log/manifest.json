@@ -1,7 +1,7 @@
 {
 
     "manifest_version": 2,
-    "name": "count_req_log",
+    "name": "Count & Log",
     "version": "1.0",
     
     "description": "Reads instances of a word. Replaces/Injects new word? Logs certain requests",
@@ -11,13 +11,6 @@
         "48": "icons/extension_fire.png"
     },
     
-    "content_scripts": 
-    [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["count_log.js"]
-        }
-    ],
   
     "permissions": 
     [
@@ -28,7 +21,7 @@
     {
         "default_icon": "icons/bar_vader.png",
         "default_title": "Count&Log",
-        "default_popup": "popup/choose_beast.html"
+        "default_popup": "popup/which_word.html"
     }
   }
 
