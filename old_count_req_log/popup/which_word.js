@@ -8,7 +8,7 @@ function listenForClicks() {
     {
   
   
-        // Functions that are called if appropirate button on popup is pushed
+        // Function called if appropirate button on popup is pushed
         function poof(tabs) 
         {
             browser.tabs.insertCSS({code: hidePage}).then(() => 
@@ -21,7 +21,8 @@ function listenForClicks() {
                 });
             });
         }
-  
+        
+        // Function called if appropirate button on popup is pushed
         function reset(tabs) 
         {
             browser.tabs.removeCSS({code: hidePage}).then(() => 
@@ -39,11 +40,13 @@ function listenForClicks() {
         if (e.target.classList.contains("poof_button")) 
         {   
             // Calls poof()
+            console.log("Highlight was pressed!");
             browser.tabs.query({active: true, currentWindow: true}).then(poof);
         }
         else if (e.target.classList.contains("reset_button"))
         {
             // calls reset()
+            console.log("Reset was pressed!");
             browser.tabs.query({active: true, currentWindow: true}).then(reset);
         }
     });
@@ -51,4 +54,4 @@ function listenForClicks() {
 
 
 // Load content script to access/modify webpage content
-browser.tabs.executeScript({file: "/content_scripts/actions.js"}).then(listenForClicks).catch(reportExecuteScriptError);
+browser.tabs.executeScript({file: "/content_scripts/actions.js"}).then(listenForClicks);
