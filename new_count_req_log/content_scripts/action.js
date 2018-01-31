@@ -1,9 +1,11 @@
 (function() 
 {
     
-    var numOccurances = 0;
+
+   
 
 
+    
     // Only loads content script once. 
     if (window.hasRun) 
     {
@@ -52,17 +54,32 @@
 
       console.log("I pushed a button!");
 
-      // Traverse dom and count word
       var word = "views";
-      
-      //var allWords = document.body.textContent.split(' ');
+
+
+      // Traverse dom and count word
+      var regex = new RegExp(word,'g');
+      var numOccurances = 0;
+
+      // split method returns string array
+      // Get all words in body
+
+      // Inner text dosn't include scripts and other inner elements
       var allWords = document.body.innerText.split(' ');
 
+      //var allWords = document.body.textContent.split(' ');
 
-      var regex = new RegExp(word);
 
-      var count = (document.body.innerText.match(regex)).length;
-      numOccurances += count;
+      for(var i = 0; i < allWords.length; i++)
+      {
+        var count = allWords[i].toLowerCase().match(regex);
+
+        if(count != null)
+        {
+          numOccurances += count.length;
+        }
+        
+      }
 
       console.log(numOccurances + " occurances of " + word);
       
