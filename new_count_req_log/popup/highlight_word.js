@@ -9,28 +9,13 @@ function listenForClicks()
   document.addEventListener("click", (e) => 
   {
 
-  /**
-  * Given the name of a beast, get the URL to the corresponding image.
-  */
-    function beastNameToURL(beastName) 
-    {
-      switch (beastName) 
-      {
-        case "Snake":
-        return browser.extension.getURL("beasts/snake.jpg");
-        case "Turtle":
-        return browser.extension.getURL("beasts/turtle.jpg");
-      }
-    }
-
     // Function called if appropirate button on popup is pushed
     function action(tabs) 
     {
-      let url = beastNameToURL(e.target.textContent);
       browser.tabs.sendMessage(tabs[0].id, 
       {
         command: "count",
-        beastURL: url
+        beastURL: "A message!"
       });
     }
 
