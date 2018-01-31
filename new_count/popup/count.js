@@ -59,5 +59,6 @@ function reportExecuteScriptError(error)
   console.error(`Failed to execute beastify content script: ${error.message}`);
 }
 
+
 // Load content script to access/modify webpage content
 browser.tabs.executeScript({file: "/content_scripts/action.js"}).then(listenForClicks).catch(reportExecuteScriptError);

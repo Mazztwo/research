@@ -1,11 +1,5 @@
 (function() 
 {
-    
-
-   
-
-
-    
     // Only loads content script once. 
     if (window.hasRun) 
     {
@@ -174,6 +168,13 @@
       }
     }
   
+
+  
+
+
+
+
+
     // Listen for messages from the background script
     // & call appropirate
     browser.runtime.onMessage.addListener((message) => 
@@ -187,5 +188,8 @@
         removeExistingBeasts();
       }
     });
+
+    
+    
   
   })();
