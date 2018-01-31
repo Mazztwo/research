@@ -54,7 +54,14 @@
 
       console.log("I pushed a button!");
 
-      var word = "views";
+
+      /************************************* 
+      * Change word here
+      */
+      var word = "corn";
+      /************************************/
+
+
 
 
       // Traverse dom and count word

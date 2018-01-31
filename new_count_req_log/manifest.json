@@ -13,21 +13,16 @@
   
     "permissions": 
     [
-      "activeTab"
+      "activeTab",
+      
+      "webRequest",
+      "<all_urls>"
     ],
   
     "browser_action": 
     {
       "default_icon": "icons/bar_vader.png",
       "default_title": "Count&Log",
-      "default_popup": "popup/highlight_word.html"
-    },
-  
-    "web_accessible_resources": 
-    [
-      "beasts/frog.jpg",
-      "beasts/turtle.jpg",
-      "beasts/snake.jpg"
-    ]
-  
+      "default_popup": "popup/count.html"
+    }  
 }
