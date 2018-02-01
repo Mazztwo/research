@@ -1,9 +1,14 @@
 {
-    "description": "Demonstrating webRequests",
+    "description": "Log requests to console.",
     "manifest_version": 2,
-    "name": "webRequest-demo",
+    "name": "Log Requests",
     "version": "1.0",
   
+    "icons": 
+    {
+      "48": "icons/log.png"
+    },
+
     "permissions": [
       "webRequest",
       "<all_urls>"
