@@ -37,7 +37,7 @@
         // of its children.
         for (let i = 0; i < node.childNodes.length; i++) 
         {
-          replaceText(node.childNodes[i]);
+          countText(node.childNodes[i]);
         }    
       }
     }

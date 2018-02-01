@@ -1,8 +1,25 @@
 
+
+
+
+var outFile = new debugout();
+
 // Prints html request info to log
 function logURL(requestDetails) 
 {
-    console.log("Request was made! Loading details: " + requestDetails.url);
+    console.log("YAY Request was made! Loading details: " + requestDetails.url);
+    
+    /*
+    if(requestDetails.url).match(some RegEx)
+    {
+        outfile.log((requestDetails.url).substring(0,20));
+    }
+
+    save at end somehow....
+    */
+    
+
+
 }
   
 // Listner for web requests, sends them to logURL
