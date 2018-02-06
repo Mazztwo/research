@@ -1,0 +1,7 @@
+{
+    "name": "user_app",
+    "description": "Example host for native messaging",
+    "path": "/Users/Alessio/Documents/School/Research/Research_repo/research/extension_messaging/app/user_app.py",
+    "type": "stdio",
+    "allowed_extensions": [ "user_app@example.org" ]
+  }
