@@ -5,3 +5,4 @@
     "type": "stdio",
     "allowed_extensions": [ "user_app@example.org" ]
   }
+

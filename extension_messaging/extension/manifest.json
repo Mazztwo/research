@@ -4,25 +4,38 @@
   "manifest_version": 2,
   "name": "External Writer",
   "version": "1.0",
-  "icons": {
+
+  "icons": 
+  {
     "48": "icons/message.png"
   },
 
-  "applications": {
-    "gecko": {
+  "applications": 
+  {
+    "gecko": 
+    {
       "id": "user_app@example.org",
       "strict_min_version": "50.0"
     }
   },
 
-  "background": {
+  "background": 
+  {
     "scripts": ["background.js"]
   },
 
-  "browser_action": {
+  "browser_action": 
+  {
     "default_icon": "icons/message.png"
   },
-  
-  "permissions": ["nativeMessaging"]
 
+
+  "permissions": 
+  [
+    "nativeMessaging",
+    "webRequest",
+    "<all_urls>"
+  ]
+
+  
 }
