@@ -6,8 +6,8 @@ import struct
 
 
 # Can change file name to specify date/time when run?
-outputFile = open("requests.txt", "w+")
-outputFile.write("Web requests being made on page: \n\n")
+outputFile = open("output.txt", "w+")
+outputFile.write("DOM of requested page: \n\n")
 
 try:
     # Python 3.x version
@@ -45,6 +45,7 @@ except AttributeError:
         rawLength = sys.stdin.read(4)
 
         if len(rawLength) == 0:
+            sendMessage(encodeMessage("PYTHON SCRIPT: Length of message was 0. Exiting"))
             sys.exit(0)
         
         messageLength = struct.unpack('@I', rawLength)[0]
@@ -75,7 +76,7 @@ except AttributeError:
         receivedMessage = getMessage()
 
         if len(receivedMessage) > 0:
-            sendMessage(encodeMessage("PYTHON SCRIPT: Request info received,  written to output file."))
+            sendMessage(encodeMessage("PYTHON SCRIPT: DOM received, writing to file."))
         else:
             sendMessage(encodeMessage("PYTHON SCRIPT: Error receiving message."))
 

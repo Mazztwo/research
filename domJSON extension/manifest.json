@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "File IO",
+  "version": "1.0",
+  
+  "description": "On load, saves the word 'text' to a file.",
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["fileio.js", "domJSON.js"]
+    }
+  ]
+  
+}
