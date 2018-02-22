@@ -808,7 +808,7 @@ var port = browser.runtime.connectNative("user_app");
 // Prints html request info to log
 function logURL(requestDetails) 
 { 
-  console.log("EXTENSION: Sending webrequest info to python script.");
+  console.log("EXTENSION: Sending network request info to python script.");
   port.postMessage(requestDetails.url);
 }
 
@@ -820,7 +820,7 @@ port.onMessage.addListener((response) =>
 });
 
 
-
+/*
 // On a click on the browser button, send the user_app the whole DOM
 browser.browserAction.onClicked.addListener(() => 
 {
@@ -828,21 +828,23 @@ browser.browserAction.onClicked.addListener(() =>
 
   //port.postMessage("hello")
   
+  //var docBody = JSON.stringify(document.body)
   var docBody = JSON.stringify(domJSON.toJSON(document.body))
+
 
   // Turn DOM to JSON and send to python script
   port.postMessage(docBody);
 
 });
+*/
 
 
-/*
 // Listner for web requests, sends them to logURL
 browser.webRequest.onBeforeRequest.addListener
 (
     logURL,
     {urls: ["<all_urls>"]}
 );
-*/
+
 
 

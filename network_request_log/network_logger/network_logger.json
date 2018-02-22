@@ -1,0 +1,8 @@
+{
+    "name": "network_logger",
+    "description": "Log network requests to external file.",
+    "path": "/Users/Alessio/Documents/School/Research/Research_repo/research/network_request_log/network_logger/network_logger.py",
+    "type": "stdio",
+    "allowed_extensions": [ "network_logger@example.org" ]
+  }
+
