@@ -1,0 +1,17 @@
+https://cryptflix.com
+{"level": "SEVERE", "message": "chrome-search://thumb/http://chegg.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/https://codefights.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/http://www.atp.fm/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/http://chegg.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/https://codefights.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/http://www.atp.fm/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/https://www.expedia.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/http://bigthink.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/https://aeon.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/https://aeon.co/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "chrome-search://thumb/https://www.barnesandnoble.com/ - Failed to load resource: net::ERR_FAILED", "source": "network", "timestamp": 1522886672474}
+{"level": "SEVERE", "message": "https://www.29wp.org/jquery.js - Failed to load resource: net::ERR_CONNECTION_REFUSED", "source": "network", "timestamp": 1522886673847}
+{"level": "SEVERE", "message": "https://www.youtube.com/embed/gJ-5wYjUkFA?controls=0&showinfo=0&rel=0&origin=https://cryptflix.com&loop=1&enablejsapi=1&playlist=gJ-5wYjUkFA - Error parsing header X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube: insecure reporting URL for secure page at character position 22. The default protections will be applied.", "source": "security", "timestamp": 1522886675993}
+{"level": "SEVERE", "message": "chrome-extension://mdknholibgafafgpaepbpnpeljbegned/content.js 814:8 \"_BEGIN_DOM_\"", "source": "console-api", "timestamp": 1522886676048}
+{"level": "SEVERE", "message": "chrome-extension://mdknholibgafafgpaepbpnpeljbegned/content.js 427:18 Uncaught DOMException: Failed to read the 'contentDocument' property from\u2026yptflix.com\" from accessing a cross-origin frame.", "source": "javascript", "timestamp": 1522886676132}
+{"level": "SEVERE", "message": "https://cryptflix.com/my_content/uploads/2018/02/Charles-Hoskinson-on-Real-Vision-min-640x360.jpg - Failed to load resource: the server responded with a status of 522 ()", "source": "network", "timestamp": 1522886689037}

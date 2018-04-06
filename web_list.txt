@@ -1,0 +1,44 @@
+Entire Page is Blank:
+
+https://www.duolingo.com/
+https://www.khanacademy.org/
+https://www.noisli.com/
+https://www.instagram.com/
+
+
+
+Aesthetic JS effects:
+
+http://www.chegg.com/
+https://www.expedia.com/
+http://bigthink.com/
+https://aeon.co/
+https://www.barnesandnoble.com/
+http://www.disney.com/
+https://www.ebay.com/
+
+
+
+Videos not visible:
+
+http://bigthink.com/
+https://aeon.co
+http://www.disney.com/
+
+
+
+Audio not visible:
+http://www.atp.fm
+- Probably any other podcast website
+
+
+Infinite Load Circle:
+
+https://cryptflix.com/
+https://codefights.com/
+
+Top Ribbon Loads but rest of page is blank:
+
+https://www.tumi.com/
+https://www.youtube.com/
+http://www.twitch.tv

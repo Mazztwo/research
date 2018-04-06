@@ -1,0 +1,12 @@
+{
+  "name": "request_to_file",
+  "description": "Write Network request to file",
+  "path": "/Users/Alessio/Documents/School/Research/Research_repo/research/Chrome_Extensions/request_to_file/host/network_logger",
+  
+  "type": "stdio",
+
+  "allowed_origins": 
+  [
+    "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"
+  ]
+}
